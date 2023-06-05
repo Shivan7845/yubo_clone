@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.page1{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.prismic.io/yubo/6118791b-2978-4f39-bc06-0d5d43cd6e93_LargeGraphics.webp?auto=compress,format&rect=0,0,1600,900&w=1680&h=945);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav{
+    width: 100%;
+    height: 8vmax;
+    /* background-color: red; */
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.5vmax;
+    top: 0;
+}
+.nav{
+    font-size: 10px;
+}
+.nav2 img{
+    height: 4.5vmax;
+}
+.nav3{
+    /* width: 5vmax; */
+    background-color: black;
+    border-radius: 100px;
+    padding: 0.3vmax 1vmax;
+}
+.nav3 img{
+    height: 2.5vmax;
+    margin: 0 0.3vmax;
+
+}
+#apple{
+    border-right: 0.5px solid white;
+   
+}
+.page1 h1{
+    color: #FFE30A;
+   font-size: 165px;
+   line-height: 130px;
+   text-align: center;
+    font-family: "Right Grotesk";
+}
