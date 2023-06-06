@@ -30,6 +30,7 @@ html,body{
     align-items: center;
     padding: 0 2.5vmax;
     top: 0;
+    z-index: 99;
 }
 .nav{
     font-size: 10px;
@@ -58,4 +59,369 @@ html,body{
    line-height: 130px;
    text-align: center;
     font-family: "Right Grotesk";
+}
+/* =================================================== */
+.page2{
+    width: 100%;
+    height: 120%;
+    background-color: #FFE30A;
+    position: relative;
+
+}
+.page2 h1{
+    font-size: 150px;
+    font-family: "Right Grotesk";
+    line-height: 135px;
+    position: absolute;
+    top: 17%;
+    left: 13%;
+}
+.page2 img{
+    height: 85%;
+    position: absolute;
+    right: 24%;
+    top: 12%;
+}
+#appleStore{
+    height: 60px;
+    top: 68%;
+    left: 13%;
+}
+#play{
+    height: 60px;
+    top: 68%;
+    left: 27%;
+}
+#lit {
+    height: 150px;
+    position: absolute;
+    right: 14%;
+    top: 25%;
+}
+#join{
+    height: 170px;
+    top: 40%;
+    right: 36%;
+}
+#hey{
+    height: 125px;
+    top: 66%;
+    left: 42%;
+}
+#toddle{
+    height: 200px;
+    right:11%;
+    top: 75%;
+}
+#yubo{
+    height: 100px;
+    right:7%;
+    top: 66%;
+}
+/* ========================================= */
+.page3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #151400;
+}
+.top{
+    width: 100%;
+    height: 30vh;
+}
+.content{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    padding: 0 15vmax;
+    justify-content: space-between;
+    align-items: center;
+}
+.context p{
+    font-size: 2vmax;
+    font-family: "Roboto";
+    
+    line-height: 2vmax;
+    color: white;
+    font-weight: 400;
+}
+.context button{
+    padding: 1vmax 1.5vmax;
+    font-size: 1.2vmax;
+    font-family: "Roboto";
+    font-weight: 600;
+    background-color: #FFE30A;
+    border: none;
+    border-radius: 100px;
+    margin-top: 2vmax;
+}
+.page3 h1{
+    font-size: 150px;
+    line-height: 130px;
+    color: #FFE30A;
+    font-family: "Right Grotesk";
+}
+/* ================================================= */
+
+.page4{
+    width: 100%;
+    height: 120%;
+    background-color: #151400;
+    padding: 10vmax  13vmax 1vmax 13vmax;
+    display: flex;
+
+}
+.p4-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    
+}
+.p4l-content p{
+    font: 400 2vmax "roboto";
+    width: 90%;
+    color: white;
+    line-height: 2.1vmax;
+}
+.p4l-content button{
+    margin: 1vmax 0 ;
+    padding: 0.8vmax 1.5vmax;
+    background-color: #FFE30A;
+    border-radius: 100px;
+    border: none;
+    font: 600 1.2vmax "roboto";
+}
+.p4-right{
+    width: 50%;
+    height: 100%;
+}
+.p4r-img{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://www.yubo.live/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fyubo%2F82f890e9-ec72-4384-a0ba-67e945627f47_210211_Yubo_HSS_04_568--scaled.jpg.jpg%3Fauto%3Dcompress%2Cformat&w=640&q=75);
+    background-position: center;
+    background-size: cover;
+    border-radius: 40px;
+}
+/* ==================================================== */
+.page5{
+    width: 100%;
+    height: 60vh;
+    background-color: #151400;
+    color: #FFE30A;
+    font-family: "Right Grotesk";
+    padding: 5vmax 13vmax;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.page5 img{
+    height: 100px;
+}
+.page5 h1{
+    font: 600 140px "right grotesk";
+    line-height: 130px;
+}
+.page5 button{
+    padding: 1vmax 2vmax;
+    font: 600 1.2vmax "roboto";
+    border: none;
+    border-radius: 100px;
+    background-color: #FFE30A;
+
+}
+.page6{
+    width: 100%;
+    min-height: 200%;
+    position: relative;
+    background-color: #976BFF;
+}
+
+.p6-box1{ 
+    width: 25%;
+    height: 70vh;
+    background-image: url("https://images.prismic.io/yubo/42e1a41b-e054-4f52-a214-e3ea5e475aa4_Blog_Yubo+Horoscope.png?auto=compress,format");
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    position: absolute;
+    left: 15%;
+    top: 14%;
+}
+.overlay{
+    width: 100%;
+    padding: 2vmax;
+    border-radius: 30px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.445);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.btn button{
+    padding: 0.6vmax 1vmax;
+    font: 400 1.3vmax "Right Grotesk";
+    border-radius: 5px;
+    border: none;
+    background-color: #976BFF;
+
+}
+
+.overlay h1{
+    font: 400 3.2vmax "Right Grotesk";
+    color: white;
+}
+.overlay h3{
+    display: flex;
+    align-items: center;
+    margin-top: 1vmax;
+    font: 400 1.3vmax "Right Grotesk";
+    color: white;
+}
+
+.p6-box2{
+    width: 37%;
+    height: 70vh;
+    border-radius: 30px;
+    background-image: url(https://images.prismic.io/yubo/4e7a5333-9e65-4a60-a2d1-7b9680e002f2_Blog_CommunityTipsAndTricks.png?auto=compress,format);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 47%;
+    top: 2%;
+}
+#probtn{
+    padding: 0.6vmax 1vmax;
+    font: 400 1.3vmax "Right Grotesk";
+    border-radius: 5px;
+    border: none;
+    background-color:#FF5252;
+}
+.p6-box3{
+    width: 28%;
+    height: 70vh;
+    background-image: url(https://images.prismic.io/yubo/f34dcf26-d146-4205-ab86-46e4daef0781_Blog_Community+Building+and+Making+Friends+on+Yubo.png?auto=compress,format);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    border-radius: 30px;
+    right: 20%;
+    bottom: 23%;
+}
+#fribtn{
+    padding: 0.6vmax 1vmax;
+    font: 400 1.3vmax "Right Grotesk";
+    border-radius: 5px;
+    border: none;
+    background-color:#FFE30A;
+}
+.p6-box4{
+    position: absolute;
+    bottom: -16%;
+    left: 24%;
+}
+
+
+/* ============================================== */
+.page7{
+    width: 100%;
+    height: 10%;
+    /* background-color: #FFE30A; */
+   
+}
+
+/* ============================================= */
+.page8{
+    width: 100%;
+    height: 90%;
+    background-color: #FFE30A;
+    padding: 10vmax 5vmax;
+   
+}
+.p8-top{
+    width: 100%;
+    height: 40vh;
+     display: flex;
+    justify-content: space-between;
+    align-items: start;
+    /* background-color: red; */
+}
+.p8-top ul{
+ list-style: none;
+}
+.p8-top h2{
+    margin-bottom: 2vmax;
+    font: 600 2vmax "Right Grotesk";
+}
+.p8-top li{
+    font: 400 1.3vmax "Poppins";
+    position: relative;
+    cursor: pointer;
+
+}
+.p8-top li::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    height: 1%;
+    background-color: black;
+    transition: 1s;
+}
+.p8-top li:hover::before{
+    width: 100%;
+}
+.p8-icons{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #151400; */
+
+}
+.p8-icons i{
+    border-radius: 50%;
+    margin: 0 0.5vmax;
+    padding: 0.5vmax;
+    background-color: #151400;
+    color: white;
+    font-size: 2vmax;
+}
+.p8-footer{
+    margin-top: 3vmax;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.f1 ul{
+    display: flex;
+}
+.f1 ul li{
+    list-style: none;
+    padding-right: 1vmax;
+    font: 400 1.3vmax "Right Grotesk";
+}
+.p8-footer h3{
+    font: 400 1.3vmax "Roboto";
+}
+.p8-footer select{
+    background-color: transparent;
+    border: none;
+    font: 400 1.3vmax "Right Grotesk";
+    
+
 }
